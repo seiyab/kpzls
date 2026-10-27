@@ -1,66 +1,66 @@
 :global(html) {
-  color: #283e39;
-  background: #f9f6ec;
-  font-family: ui-rounded, system-ui, sans-serif;
+	color: #283e39;
+	background: #f9f6ec;
+	font-family: ui-rounded, system-ui, sans-serif;
 }
 
 :global(body) {
-  margin: 0;
+	margin: 0;
 }
 
 .page {
-  max-width: 36rem;
-  margin: 0 auto;
-  padding: 3rem 1.25rem;
-  text-align: center;
+	max-width: 36rem;
+	margin: 0 auto;
+	padding: 3rem 1.25rem;
+	text-align: center;
 }
 
 .heading {
-  font-size: clamp(1.8rem, 6vw, 2.8rem);
+	font-size: clamp(1.8rem, 6vw, 2.8rem);
 }
 .board {
-  display: block;
-  width: min(100%, 24rem);
-  margin: 2rem auto;
+	display: block;
+	width: min(100%, 24rem);
+	margin: 2rem auto;
 }
 .tile {
-  cursor: pointer;
-  touch-action: manipulation;
-  outline: none;
+	cursor: pointer;
+	touch-action: manipulation;
+	outline: none;
 }
 .tile rect {
-  fill: #e3eddf;
-  stroke: #f9f6ec;
-  stroke-width: 6;
+	fill: #e3eddf;
+	stroke: #f9f6ec;
+	stroke-width: 6;
 }
 .tile:focus-visible rect {
-  stroke: #326b61;
-  stroke-width: 4;
+	stroke: #326b61;
+	stroke-width: 4;
 }
 .tile:hover rect {
-  fill: #d4e4cf;
+	fill: #d4e4cf;
 }
 .line {
-  fill: none;
-  stroke: #326b61;
-  stroke-width: 13;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+	fill: none;
+	stroke: #326b61;
+	stroke-width: 13;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 .status {
-  min-height: 1.8rem;
-  font-size: 1.2rem;
+	min-height: 1.8rem;
+	font-size: 1.2rem;
 }
 .reset {
-  border: 2px solid #326b61;
-  border-radius: 1rem;
-  padding: 0.8rem 1.4rem;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
+	border: 2px solid #326b61;
+	border-radius: 1rem;
+	padding: 0.8rem 1.4rem;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
 }
 .reset:focus-visible {
-  outline: 3px solid #b97921;
-  outline-offset: 4px;
+	outline: 3px solid #b97921;
+	outline-offset: 4px;
 }

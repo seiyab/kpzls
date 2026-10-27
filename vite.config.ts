@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  build: {
-    outDir: 'dist/client',
-    manifest: true,
-    rollupOptions: { input: 'app/entry.ts' },
-  },
+	build: {
+		outDir: "dist/client",
+		manifest: true,
+		rollupOptions: { input: "app/entry.ts" },
+	},
 });

@@ -1,6 +1,6 @@
 {
-  "id": "first-loop",
-  "title": "Make a little loop",
-  "size": 2,
-  "rotations": [0, 2, 1, 3]
+	"id": "first-loop",
+	"title": "Make a little loop",
+	"size": 2,
+	"rotations": [0, 2, 1, 3]
 }
